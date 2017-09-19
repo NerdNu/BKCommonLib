@@ -237,6 +237,11 @@ public class MaterialUtil {
     public static final MaterialTypeProperty ISPRESSUREPLATE = new MaterialTypeProperty(Material.WOOD_PLATE, Material.STONE_PLATE, Material.IRON_PLATE, Material.GOLD_PLATE);
 
     /**
+     * The material is a type of metal pressure plate
+     */
+    public static final MaterialTypeProperty ISMETALPRESSUREPLATE = new MaterialTypeProperty(Material.IRON_PLATE, Material.GOLD_PLATE);
+
+    /**
      * The material is a type of Minecart item
      */
     public static final MaterialTypeProperty ISMINECART = new MaterialTypeProperty(Material.MINECART, Material.POWERED_MINECART,
