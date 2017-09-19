@@ -5,7 +5,7 @@
 
     <groupId>nu.nerd</groupId>
     <artifactId>BKCommonLib</artifactId>
-    <version>1.12.2-v2-SNAPSHOT</version>
+    <version>1.12.2-v2-0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>BKCommonLib</name>
@@ -305,7 +305,7 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>com.bergerkiller.bukkit</groupId>
+                                    <groupId>nu.nerd</groupId>
                                     <artifactId>BKCommonLib</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
